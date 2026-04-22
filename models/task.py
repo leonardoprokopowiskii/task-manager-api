@@ -3,7 +3,7 @@ class Task:
         self.id = id
         self.title = title
         self.description = description
-        self. completed = completed
+        self.completed = completed
 
     def to_dict(self):
         return {
